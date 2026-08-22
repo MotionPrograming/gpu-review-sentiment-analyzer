@@ -9,10 +9,10 @@ data/*.parquet
 # Apache Arrow installer
 *.deb
 
-# VS Code local settings
+# VS Code
 .vscode/
 
-# Compiled binaries
+# Compiled files
 *.o
 *.so
 *.a
