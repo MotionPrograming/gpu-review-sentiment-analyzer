@@ -1,4 +1,4 @@
-````markdown
+
 # GPU Review Sentiment Analyzer
 
 A C++-based sentiment analysis project for processing and analyzing large-scale GPU product reviews using Apache Arrow and Apache Parquet.
