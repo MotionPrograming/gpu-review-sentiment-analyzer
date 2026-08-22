@@ -1,0 +1,22 @@
+# Build
+build/
+cmake-build-*/
+
+# Dataset
+data/*.parquet
+*.parquet
+
+# Apache Arrow installer
+*.deb
+
+# VS Code local settings
+.vscode/
+
+# Compiled binaries
+*.o
+*.so
+*.a
+
+# OS files
+.DS_Store
+Thumbs.db
