@@ -1,23 +1,22 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.16)
 
-project(GPUParquetReader
-    VERSION 1.0
-    LANGUAGES CXX
-)
+project(cpp_parquet_test)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 find_package(Arrow REQUIRED)
 find_package(Parquet REQUIRED)
 
-add_executable(parquet_reader
+add_executable(parquet_test
     src/main.cpp
 )
 
-target_link_libraries(parquet_reader
+target_link_libraries(parquet_test
     PRIVATE
-        Arrow::arrow_shared
-        Parquet::parquet_shared
+    Arrow::arrow_shared
+    Parquet::parquet_shared
 )
