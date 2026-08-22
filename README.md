@@ -128,7 +128,7 @@ The full Parquet dataset is intentionally excluded from the Git repository becau
 
 ### Programming Language
 
-* C++17
+* C++20
 
 ### Data Processing
 
